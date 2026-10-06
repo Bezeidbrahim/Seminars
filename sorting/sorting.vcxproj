@@ -153,11 +153,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="include\binary_insertion_sort.h" />
     <ClInclude Include="include\bubble_sort.h" />
     <ClInclude Include="include\exchange_sort.h" />
     <ClInclude Include="include\insertion_sort.h" />
     <ClInclude Include="include\optimized_bubble_sort.h" />
     <ClInclude Include="include\selection_sort.h" />
+    <ClInclude Include="include\shaker_sort.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -168,11 +170,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="sorting.cpp" />
+    <ClCompile Include="src\binary_insertion_sort.cpp" />
     <ClCompile Include="src\bubble_sort.cpp" />
     <ClCompile Include="src\exchange_sort.cpp" />
     <ClCompile Include="src\insertion_sort.cpp" />
     <ClCompile Include="src\selection_sort.cpp" />
     <ClCompile Include="src\optimized_bubble_sort.cpp" />
+    <ClCompile Include="src\shaker_sort.cpp" />
+    <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
