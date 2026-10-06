@@ -158,8 +158,10 @@
     <ClInclude Include="include\exchange_sort.h" />
     <ClInclude Include="include\insertion_sort.h" />
     <ClInclude Include="include\optimized_bubble_sort.h" />
+    <ClInclude Include="include\quick_sort.h" />
     <ClInclude Include="include\selection_sort.h" />
     <ClInclude Include="include\shaker_sort.h" />
+    <ClInclude Include="include\shell_sort.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -174,9 +176,11 @@
     <ClCompile Include="src\bubble_sort.cpp" />
     <ClCompile Include="src\exchange_sort.cpp" />
     <ClCompile Include="src\insertion_sort.cpp" />
+    <ClCompile Include="src\quick_sort.cpp" />
     <ClCompile Include="src\selection_sort.cpp" />
     <ClCompile Include="src\optimized_bubble_sort.cpp" />
     <ClCompile Include="src\shaker_sort.cpp" />
+    <ClCompile Include="src\shell_sort.cpp" />
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
